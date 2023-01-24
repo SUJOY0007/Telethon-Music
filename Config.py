@@ -4,7 +4,7 @@ class Config(object):
     API_ID = int(os.environ.get("APP_ID", "29102410"))
     API_HASH = os.environ.get("API_HASH", "53df200130dc74af318c900882aa0f11")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5863933862:AAFuPkTdl8bbsKXwxb4y_Rly5Pu4igaaZ4Y")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJUBuzeCWraOlH03p9UCcyYFGldzU0TkB9BWt7VN5M1yXKSJuT-J-_6mHsffNsbbcC71vDGHSisn0aRROlegDWr7nTyUvGiKpQy6tj9jeIv_eD7SFrsCfzZkUJ2xpu9o8blfK21_-C8tr74KRl3N2jdb6Xp0DLg8cDTiHXYWqxpn_2Iv-gtPXzKKSI0Kcvvg4nGQFy-1sPrq29-kY98bo8ZvkX0nHfg-gmwp4P3yBSWWne2PH3oB2GXk5Enyw-W2jYXH7wgesg-5D9SdWxhXH0YgU2o_aOunHJnZvvFduhpguRCo_T7c5780ePuUt3pHo3rCibcToYVfvR4YUv-2m2AkdHk=")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJUBuxj8tkMhnfTEZPDW15pq7yc0d7LUTTAQRwP7Q99v9saBpTtzNtiNZwn06MXLhsr3sWtsw0qPEuQXp23THEQ-ZE9Na2DdY8fDVoZXF8w6X8eo-Wefu7nnGE4tZuve4EoE2YnW57KCewvYcqzOFo4gByvLOdqzmhU_Tx2bcBXZeWyA5ydYaA10ySckF8fHnwarzVF7L5qOeXp1eEX0oFer3jRV6JZYzWjhXmRDzHswcnb5z0MZQx4uPHPcdT3339fJLUU4_xTmTn0WEMd7EfVOvV989VrqeuXwdkbT28Uc65JfW_d0Ajs1-w3QSkDNbp_o1dvFa-YHPOHu4xI2mg4YD1o=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@MT_GROUPMUSIC_BOT")
@@ -14,4 +14,4 @@ class Config(object):
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5408061904")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "54000")) # in seconds
-    AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', True) # Change it to "True"
+    AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', "True") # Change it to "True"
