@@ -3,13 +3,13 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "29102410"))
     API_HASH = os.environ.get("API_HASH", "53df200130dc74af318c900882aa0f11")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5964726300:AAE5zfJECTgvE6xVBy1ptaX0i8Dawri6IiQ")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJUBu2uBX1giSIENBlF95kwKu9FhbRsGRmXV0OrlOinpGk6p9pDtdU88QMzP2WNaNgHfg3OG1dqBLvCaLsgP3eNDXLqlx1S4w8J45zNnxIcCrMZ0W2928f5oK6HEtVnOCb9jfqpmAJcJIV90DRzSf3sq-QKQ7_U6WleGW0QpRiw7Jh-PRg-vWk7wz4WXw9UtdsT9izsV0tjdqMUvFYmVlMF9U7ZKyCZ8QfgTI4tsRlsbpfmY2STeKK0IP6QMk-cTo6gBOm8Jj6fRKM54yTZRQhiKrdh0wEdOr3vuwf0HBgWE12eDlYkUNKF9ZvyCEM1q3MREWiISheZ8II0wmjNc6wJdJFk=")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5863933862:AAFuPkTdl8bbsKXwxb4y_Rly5Pu4igaaZ4Y")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJUBuzeCWraOlH03p9UCcyYFGldzU0TkB9BWt7VN5M1yXKSJuT-J-_6mHsffNsbbcC71vDGHSisn0aRROlegDWr7nTyUvGiKpQy6tj9jeIv_eD7SFrsCfzZkUJ2xpu9o8blfK21_-C8tr74KRl3N2jdb6Xp0DLg8cDTiHXYWqxpn_2Iv-gtPXzKKSI0Kcvvg4nGQFy-1sPrq29-kY98bo8ZvkX0nHfg-gmwp4P3yBSWWne2PH3oB2GXk5Enyw-W2jYXH7wgesg-5D9SdWxhXH0YgU2o_aOunHJnZvvFduhpguRCo_T7c5780ePuUt3pHo3rCibcToYVfvR4YUv-2m2AkdHk=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@MT_MUSICX_BOT")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@MT_GROUPMUSIC_BOT")
     SUPPORT = os.environ.get("SUPPORT", "-1001872352449") # Your Support
-    CHANNEL = os.environ.get("CHANNEL", "@sujoy_man") # Your Channel
+    CHANNEL = os.environ.get("CHANNEL", "@AASHIYANA_MERA") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5408061904")) # telegram I'd not Username
